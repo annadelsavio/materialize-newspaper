@@ -1,0 +1,109 @@
+body {
+  font-family:'Montserrat', sans-serif;
+  background-color: white;
+}
+
+
+h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.header a{
+  color:black;
+  background:rgba(40,40,40,); 
+  display:inline-block; 
+  padding:5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  text-align:left;
+  text-decoration:none;
+  text-transform:uppercase; 
+  letter-spacing:2px;
+}
+
+.nav li { 
+  color: black;
+  background-color:rgb(200,200,200); 
+  display: inline;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.nav ul{
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 80%;
+  text-align: 40px;
+  font-size: 18px;
+  line-height: 28px;
+  word-spacing: .5px;
+  margin-bottom: 20px;
+}
+
+.restaurantimage img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.restauranttext h1{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer ul{
+  background-color: #29292a;
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  height: 40px;
+}
+
+.footer a{
+  color: white;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer li{
+  display: inline;
+  position: relative;
+  bottom: 0;
+  margin:20px;
+}
+
+/*  @media screen and (max-width: 420px) {
+  	body {
+  		font-size: 70%;
+  		width: 100%;
+  	}
+  	.header h1{
+  		font-size: 35px;
+  	}
+
+  	.content {
+  		height: 100%;
+  	}
+
+  	.footer li {
+  		display: block;
+  		margin: 10px;
+  	}
+
+  	.footer ul {
+  		height: 80px;
+  		padding-top: 0px;
+  		font-size: 12px;
+  	}
+  }*/
